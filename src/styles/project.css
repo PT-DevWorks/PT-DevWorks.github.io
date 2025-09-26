@@ -36,14 +36,20 @@ body {
 /*  =================
 	Main Body Content
 	================= */
-.pageContent {
+.projectContent {
 	margin: 0 auto;
-	max-width: 1600px;
+	padding: 0 15%;
+	max-width: 1800px;
 }
 
 /*  ==============
 	Info Group Box
 	============== */
+.infoBox {
+	margin: 0 auto;
+	padding: 0 15%;
+	max-width: 1800px;
+}
 .infoContainer {
 	background-color: #454545;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -70,13 +76,13 @@ body {
 	justify-content: center;
 }
 .icons {
-	width: 40px;
-	height: 40px;
-	margin-bottom: 2px;
+	width: 65px;
+	height: 65px;
+	margin-bottom: 0px;
 }
 .infoItem p {
-	font-size: 1.0rem;
-	padding-bottom: 6px;
+	font-size: 1.2rem;
+	padding-bottom: 12px;
 }
 
 /*  ==================
@@ -174,7 +180,7 @@ body {
 	Responsive Portfolio 
 	==================== */
 @media (max-width: 1080px) {
-	.pageContent {	
-		margin: 0 5%;
+	.projectContent {	
+		padding: 0 15%;
 	}
 }

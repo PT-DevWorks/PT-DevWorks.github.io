@@ -7,7 +7,7 @@
         "Development_Role": "Sole Developer",
         "Development_TeamSize": "1",
 
-        "Development_Time": "16+ hours",
+        "Development_Time": "56+ hours",
         "Development_Status": "Under Development",
 
         "Development_Tools": "VS Code",
@@ -16,14 +16,16 @@
         "Project_Sections": [
             {
                 "Section_Title": "Concept",
-                "Section_Context": "<p>This project was developed to automate repetitive Excel data-processing tasks, originally done manually at work. It takes an Excel file as input, applies filtering and sorting rules defined in JSON configuration files, and outputs a clean, organized file.</p><p>Designed with modularity in mind, the program allows users to easily add, remove, or modify rules, making it adaptable to different datasets and evolving requirements. The goal was to create a flexible, reusable tool that streamlines workflows while reducing human error.</p>"
+                "Section_Context": "<p>This project was developed to automate repetitive Excel data-processing tasks, originally done manually at work. It takes an Excel file as input, applies filtering and sorting rules defined in JSON configuration files, and outputs a clean, organized file.</p><p>Designed with modularity in mind, the program allows users to easily add, remove, or modify rules, making it adaptable to different datasets and evolving requirements. The goal was to create a flexible, reusable tool that streamlines workflows, reduces human error, and improves accessibility for both technical and non-technical users.</p>"
             },
             {
                 "Section_Title": "Prototype",
-                "Section_Context": "<p>The prototype was built over one week (16 hours) to demonstrate the program’s core functionality. It was structured in modules: loading Excel and JSON files, filtering unnecessary rows and columns, and applying separate filtering and sorting procedures.</p><p>User input allows selection of different configurations, and the program dynamically loops through any number of instructions to handle varying datasets. Throughout development, outputs were rigorously tested to match results previously achieved manually.</p><p>This modular and adaptable prototype laid the foundation for future improvements, including performance optimization and expanding configurable rules. The prototype currently runs in a terminal environment, focusing on core functionality and modular design. The next step is to develop a compiled version with a user-friendly interface to expand accessibility and usability.</p>",
-                "Video_Example": ""
+                "Section_Context": "<p>The prototype was built over one week (~16 hours) to demonstrate the program’s core functionality. It was structured in modules: loading Excel and JSON files, filtering unnecessary rows and columns, and applying separate filtering and sorting procedures.</p><p>User input allows selection of different configurations, and the program dynamically loops through any number of instructions to handle varying datasets. Throughout development, outputs were rigorously tested to match results previously achieved manually.</p><p>This modular and adaptable prototype laid the foundation for future improvements, including performance optimization and expanding configurable rules. The prototype currently runs in a terminal environment, focusing on core functionality and modular design. The next step was to develop a compiled version with a user-friendly interface to expand accessibility and usability.</p>"
+            },
+            {
+                "Section_Title": "Dashboard Development",
+                "Section_Context": "<p>Building on the prototype, I dedicated ~40 hours over 19 days to develop a GUI dashboard, balancing development alongside my full-time role.The original CLI design was reimagined for usability: the new interface informs users through pop-up warnings, error messages, and status completion alerts.</p><p>The dashboard also includes:<ul><li>File browsing for selecting Excel inputs and output folders</li><li>A dropdown menu for choosing filtering configurations</li><li>Streamlined workflows that make the tool accessible to non-technical users</li></ul></p><p>This transition from CLI to GUI highlights the project’s evolution from a proof-of-concept into a practical, user-friendly application. By focusing on accessibility and clarity, the tool now better serves real-world workflows while maintaining modularity and adaptability.</p>"
             }
-            
         ],
 
         "Project_Accessibility": ""
