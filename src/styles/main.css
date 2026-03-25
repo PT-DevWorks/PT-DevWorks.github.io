@@ -57,6 +57,7 @@ html, body {
     margin: 5px 0 0 0;  
 }
 .typingCursor {
+    left: -4px;
     color: #cccccc;
     position: relative;
     display: inline-block;
@@ -114,6 +115,52 @@ html, body {
 }
 /*#endregion*/
 
+/*#region Navigation Bar Hamburger*/
+.hamburger {
+    gap: 10px;
+    width: 50px;
+    height: 95px;
+    display: none;
+    cursor: pointer;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+}
+.hamburger div {
+    width: 40px;
+    height: 2px;
+    border-radius: 2px;
+    transform-origin: center;
+    background-color: #fff;
+    transition: all 0.4s ease;
+}
+.hamburger.open div:nth-child(1) {
+    transform: rotate(45deg) translate(8.5px, 8.5px);
+}
+.hamburger.open div:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.open div:nth-child(3) {
+    transform: rotate(-45deg) translate(8.5px, -8.5px);
+}
+@keyframes socialSlideOutRight {
+    0%   { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(120px); opacity: 0; }
+}
+@keyframes backSlideInLeft {
+    0%   { transform: translateX(-50%) translateX(-50px); opacity: 0; }
+    100% { transform: translateX(-50%) translateX(0); opacity: 1; }
+}
+@keyframes socialSlideInLeft {
+    0%   { transform: translateX(120px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes backSlideOutLeft {
+    0%   { transform: translateX(-50%) translateX(0); opacity: 1; }
+    100% { transform: translateX(-50%) translateX(-50px); opacity: 0; }
+}
+/*#endregion*/
+
 
 
 /* ======================
@@ -137,4 +184,49 @@ html, body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+
+
+/* =================================
+   Mobile Responsive Portfolio Style
+   ================================= */
+@media screen and (max-width: 1024px) {
+    /*#region Navigation Bar*/
+    .navItems {
+        left: 0;
+        gap: 15px;
+        top: 120px;
+        opacity: 0;
+        width: 100%;
+        max-height: 0;
+
+        overflow: hidden;
+        position: absolute;
+        align-items: center;
+        flex-direction: row;
+        transform-origin: top;
+        justify-content: center;
+        background-color: #202020;
+        will-change: max-height, opacity;
+        transition: max-height 0.7s ease, opacity 0.5s ease 0.1s;
+    }
+    .navItems.show {
+        opacity: 1;
+        max-height: 200px;
+    }
+    .navItems li {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.6s ease;
+    }
+    .navItems.show li {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .hamburger {
+        display: flex;
+        margin: 5px 10px;
+    }
+    /*#endregion*/
 }
