@@ -1,0 +1,29 @@
+/* ====================
+   Introduction Content
+   ==================== */
+.aboutMeContentContainer {
+    gap: 30px;
+    padding: 0 5%;
+    display: flex;
+    position: relative;
+    text-align: justify;
+}
+.profilePicture {
+    width: 330px;
+	height: 330px;
+    object-fit: cover;
+	border-radius: 50%;
+	border: 4px solid #0066ff;
+	box-shadow: 0 0 10px rgba(0, 204, 255, 0.6);
+}
+.introductionText {
+    font-size: 1.2rem;
+}
+
+
+/* =================================
+   Mobile Responsive Portfolio Style
+   ================================= */
+@media screen and (max-width: 1024px) {
+    
+}
