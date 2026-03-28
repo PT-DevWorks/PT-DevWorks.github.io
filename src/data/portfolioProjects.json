@@ -1,0 +1,29 @@
+[
+    {
+        "projectTitle": "Test 1",
+        "projectTags": ["Personal"],
+
+        "developmentRole": "Sole Developer",
+
+        "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
+        "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
+    },
+    {
+        "projectTitle": "Test 2",
+        "projectTags": ["Personal"],
+
+        "developmentRole": "Level Designer",
+
+        "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
+        "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
+    },
+    {
+        "projectTitle": "Test 3",
+        "projectTags": ["Professional"],
+
+        "developmentRole": "Game Designer",
+
+        "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
+        "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
+    }
+]

@@ -30,7 +30,7 @@
    ================================== */
 
 /*#region Portfolio Navigation Bar*/
-.portfolioNavbar {
+.portfolioFilterBar {
     gap: 30px;
     display: flex;
     margin: 40px 0;
@@ -42,7 +42,7 @@
     padding-right: 5%;
     padding-top: 25px;
 }
-.portfolioNavbar li {
+.portfolioFilterBar li {
     font-weight: 700;
     font-size: 1.5rem;
 
@@ -50,7 +50,7 @@
     position: relative;
     padding-bottom: 4px;
 }
-.portfolioNavbar li::after {
+.portfolioFilterBar li::after {
     left: 0;
     bottom: 0;
     content: '';
@@ -62,14 +62,14 @@
     background-color: #0077ff;
     transition: transform 0.3s ease;
 }
-.portfolioNavbar li:hover::after {
+.portfolioFilterBar li:hover::after {
     transform: scaleX(1);
 }
-.portfolioNavbar li.active::after {
+.portfolioFilterBar li.active::after {
     transform: scaleX(1);
 }
-.portfolioNavbar li:hover,
-.portfolioNavbar li.active {
+.portfolioFilterBar li:hover,
+.portfolioFilterBar li.active {
     color: #0077ff;
 }
 /*#endregion*/
