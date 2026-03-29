@@ -100,28 +100,40 @@ html, body {
 	transition: background-image 0.3s ease-in-out;
 }
 #linkedin {
-	background-image: url('/src/assets/images/logos/Blue_Linkedin.png');
+    transition: transform 0.35s ease;
+	background-image: url('/src/assets/images/logos/Main_Linkedin.png');
 }
 #linkedin:hover {
-	background-image: url('/src/assets/images/logos/Red_Linkedin.png');
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0 12px rgba(51, 153, 255, 0.25);
+	background-image: url('/src/assets/images/logos/Hover_Linkedin.png');
 }
 #github {
-	background-image: url('/src/assets/images/logos/Blue_Github.png');
+    transition: transform 0.35s ease;
+	background-image: url('/src/assets/images/logos/Main_Github.png');
 }
 #github:hover {
-	background-image: url('/src/assets/images/logos/Red_Github.png');
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0 12px rgba(51, 153, 255, 0.25);
+	background-image: url('/src/assets/images/logos/Hover_Github.png');
 }
 #x {
-	background-image: url('/src/assets/images/logos/Blue_X.png');
+    transition: transform 0.35s ease;
+	background-image: url('/src/assets/images/logos/Main_X.png');
 }
 #x:hover {
-	background-image: url('/src/assets/images/logos/Red_X.png');
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0 12px rgba(51, 153, 255, 0.25);
+	background-image: url('/src/assets/images/logos/Hover_X.png');
 }
 #resume {
-    background-image: url('/src/assets/images/icons/Blue_Resume.png');
+    transition: transform 0.35s ease;
+    background-image: url('/src/assets/images/icons/Main_Resume.png');
 }
 #resume:hover {
-    background-image: url('/src/assets/images/icons/Red_Resume.png');
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0 12px rgba(51, 153, 255, 0.25);
+    background-image: url('/src/assets/images/icons/Hover_Resume.png');
 }
 /*#endregion*/
 
