@@ -49,6 +49,8 @@
     cursor: pointer;
     position: relative;
     padding-bottom: 4px;
+
+    transition: color 0.25s ease;
 }
 .portfolioFilterBar li::after {
     left: 0;
@@ -68,9 +70,13 @@
 .portfolioFilterBar li.active::after {
     transform: scaleX(1);
 }
-.portfolioFilterBar li:hover,
+.portfolioFilterBar li:hover {
+    color: #3399ff;
+    transition: color 0.25s ease;
+}
 .portfolioFilterBar li.active {
     color: #0077ff;
+    transition: color 0.25s ease;
 }
 /*#endregion*/
 
