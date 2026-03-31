@@ -14,8 +14,6 @@ html, body {
 	font-family: Verdana, sans-serif;
 }
 .pageContentContainer {
-    margin: 0 auto;
-    max-width: 1200px;
     text-align: justify;
     justify-content: center; 
 }
