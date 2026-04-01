@@ -1,27 +1,30 @@
 [
     {
         "projectTitle": "Test 1",
-        "projectTags": ["Personal"],
+        "projectTags": ["Personal", "Game"],
 
-        "developmentRole": "Sole Developer",
+        "developmentRole": "Level Designer",
+        "developmentTechnologies": ["Unity", "C#"],
 
         "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
         "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
     },
     {
         "projectTitle": "Test 2",
-        "projectTags": ["Personal"],
+        "projectTags": ["Personal", "Game"],
 
         "developmentRole": "Level Designer",
+        "developmentTechnologies": ["Unreal", "C++"],
 
         "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
         "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
     },
     {
         "projectTitle": "Test 3",
-        "projectTags": ["Professional"],
+        "projectTags": ["Professional", "Game"],
 
-        "developmentRole": "Game Designer",
+        "developmentRole": "Level Designer",
+        "developmentTechnologies": ["Unity", "C#"],
 
         "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
         "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"

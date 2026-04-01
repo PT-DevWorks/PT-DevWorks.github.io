@@ -59,7 +59,7 @@ fetch('/src/data/portfolioProjects.json')
             <div class="textBox">
                 <div class="defaultText">
                     <span class="projectTitle">${project.projectTitle}</span>
-                    <span class="projectRole">${project.developmentRole}</span>
+                    <span class="projectRole">${project.developmentTechnologies}</span>
                 </div>
                 <div class="hoverText">Click to learn more</div>
             </div>
