@@ -4,7 +4,7 @@
         "projectTags": ["Personal", "Game"],
 
         "developmentRole": "Level Designer",
-        "developmentTechnologies": ["Unity", "C#"],
+        "developmentTechnologies": ["C#"],
 
         "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
         "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
@@ -14,7 +14,7 @@
         "projectTags": ["Personal", "Game"],
 
         "developmentRole": "Level Designer",
-        "developmentTechnologies": ["Unreal", "C++"],
+        "developmentTechnologies": ["C++"],
 
         "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
         "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
@@ -24,7 +24,7 @@
         "projectTags": ["Professional", "Game"],
 
         "developmentRole": "Level Designer",
-        "developmentTechnologies": ["Unity", "C#"],
+        "developmentTechnologies": ["C#", "Java", "Python"],
 
         "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
         "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
