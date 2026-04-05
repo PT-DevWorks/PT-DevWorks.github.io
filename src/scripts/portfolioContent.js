@@ -103,25 +103,7 @@ fetch('/src/data/portfolioProjects.json')
 
         // Make card clickable
         card.addEventListener('click', () => {
-            const rect = card.getBoundingClientRect();
-            const screenCenter = window.innerWidth / 2;
-
-            let direction = "right"; // default
-            if (rect.left + rect.width / 2 < screenCenter - 50) {
-                direction = "left"; // card is on left side
-            } else if (rect.left + rect.width / 2 > screenCenter + 50) {
-                direction = "right"; // card is on right side
-            } else {
-                direction = Math.random() > 0.5 ? "left" : "right";
-            }
-
-            animatePageOut(direction);
-
-            // Delay navigation until the animation finishes
-            setTimeout(() => {
-                const projectSlug = project.projectTitle.toLowerCase().replace(/\s+/g, '-');
-                window.location.href = `/src/pages/portfolio.html#${projectSlug}`;
-            }, 600); // matches slide timing
+            window.location.href = `/src/pages/projectCaseStudy.html#${projectSlug}`;
         });
 
         projectsContainer.appendChild(card);

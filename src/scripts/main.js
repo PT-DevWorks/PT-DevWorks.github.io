@@ -1,3 +1,20 @@
+/* ================
+   Detect Page Type
+   ================ */
+const pageType = document.body.className;
+const navActions = document.getElementById("navigationActions");
+switch (true) {
+    case pageType.classList.contains("index"):
+        navActions.style.display = "none";
+        break;
+
+    case pageType.classList.contains("caseStudy"):
+        navActions.style.display = "flex";
+        break;
+}
+
+
+
 /* ========================
    Navigation Bar Functions
    ======================== */
@@ -72,6 +89,10 @@ function animateTyper() {
 animateTyper();
 //#endregion
 
+//#region Navigation Bar 
+
+//#endregion
+
 //#region Navigation Bar Hamburger
 function ToggleMenu() {
     const navItems = document.querySelector(".navItems");
@@ -92,3 +113,4 @@ function ToggleMenu() {
     }
 }
 //#endregion
+

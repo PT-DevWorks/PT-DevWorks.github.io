@@ -23,7 +23,7 @@ html, body {
 /* ==============================
    Portfolio Navagation Bar Style
    ============================== */
-.navagationBarContainer {
+.navigationBarContainer {
     top: 0;
 	margin: 0;
     width: 100%;
@@ -32,7 +32,7 @@ html, body {
     position: fixed;
     background-color: #202020;
 }
-.navagationBar{
+.navigationBar{
     height: 100%;
     display: flex;
     margin: 0 auto;
@@ -76,18 +76,28 @@ html, body {
 }
 /*#endregion*/
 
+/*#region Navigation Bar Action Items*/
+.navigationActions {
+    display: none;
+}
+
+body.caseStudy .navigationActions {
+    display: flex;
+}
+/*#endregion*/
+
 /*#region Navigation Bar Social*/
-.navItems {
+.navigationItems {
     margin: 0;
 	padding: 0;
     display: flex;
     list-style: none;
     margin-left: auto;
 }
-.navItems li {
+.navigationItems li {
 	position: relative;
 }
-.socialNavItem{
+.socialNavigationItem{
     width: 50px;
 	height: 50px;
     margin: 5px 10px;
