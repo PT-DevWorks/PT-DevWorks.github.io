@@ -49,8 +49,8 @@ const technologyBadgeMap  = {
     "python": "/src/assets/images/logos/python_Logo.png",
     "javaScript": "/src/assets/images/logos/javascript_Logo.png",
 
-    //"unity": "/src/assets/images/logos/unity_Logo.png",
-    //"unreal": "/src/assets/images/logos/unreal_Logo.png",
+    "unity": "/src/assets/images/logos/unity_Logo.png",
+    "unreal": "/src/assets/images/logos/unreal_Logo.png",
     "blender": "/src/assets/images/logos/blender_Logo.png"
 }
 

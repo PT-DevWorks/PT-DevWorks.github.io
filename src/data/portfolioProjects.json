@@ -14,7 +14,7 @@
         "projectTags": ["Personal", "Game"],
 
         "developmentRole": "Level Designer",
-        "developmentTechnologies": ["C++"],
+        "developmentTechnologies": ["C++", "HTML", "Unity", "Unreal"],
 
         "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
         "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
