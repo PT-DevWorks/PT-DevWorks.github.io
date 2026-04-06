@@ -77,12 +77,59 @@ html, body {
 /*#endregion*/
 
 /*#region Navigation Bar Action Items*/
-.navigationActions {
+.navigationAction {
     display: none;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-body.caseStudy .navigationActions {
+body.caseStudy .navigationAction {
+    gap: 4px;
     display: flex;
+    font-size: 2.2rem;
+    color: #0077ff;
+    align-items: center;
+}
+body.caseStudy .navigationAction:hover {
+    color: #3399ff;
+    text-shadow: 
+        0 0 3px rgba(51, 153, 255, 0.4),
+        0 0 6px rgba(51, 153, 255, 0.25);
+}
+.backArrow {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    align-items: center;
+    display: inline-block;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/src/assets/images/icons/Back_Arrow.png');
+}
+.backArrow::after {
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/src/assets/images/icons/Hover_Back_Arrow.png');
+
+    opacity: 0;
+    transform: translateX(0);
+    transition: transform 0.3s ease, opacity 0.2s ease;
+}
+.navigationAction:hover .backArrow {
+    background-image: url('/src/assets/images/icons/Hover_Back_Arrow.png');
+}
+.navigationAction:hover .backArrow::after {
+    opacity: 1;
+    transform: translateX(20px);
 }
 /*#endregion*/
 
@@ -93,6 +140,9 @@ body.caseStudy .navigationActions {
     display: flex;
     list-style: none;
     margin-left: auto;
+}
+body.caseStudy .navigationItems {
+    display: none;
 }
 .navigationItems li {
 	position: relative;

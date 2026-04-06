@@ -5,11 +5,11 @@ const pageType = document.body.className;
 const navActions = document.getElementById("navigationActions");
 switch (true) {
     case pageType.classList.contains("index"):
-        navActions.style.display = "none";
+    
         break;
 
     case pageType.classList.contains("caseStudy"):
-        navActions.style.display = "flex";
+        
         break;
 }
 
@@ -89,7 +89,7 @@ function animateTyper() {
 animateTyper();
 //#endregion
 
-//#region Navigation Bar 
+//#region Navigation Bar Action and Social Items
 
 //#endregion
 
