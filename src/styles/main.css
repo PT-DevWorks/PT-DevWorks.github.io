@@ -239,6 +239,9 @@ body.caseStudy .navigationItems {
     0%   { transform: translateX(-50%) translateX(0); opacity: 1; }
     100% { transform: translateX(-50%) translateX(-50px); opacity: 0; }
 }
+body.caseStudy .hamburger {
+    display: none;
+}
 /*#endregion*/
 
 
@@ -305,6 +308,9 @@ body.caseStudy .navigationItems {
     .hamburger {
         display: flex;
         margin: 5px 10px;
+    }
+    .navigationAction {
+        margin-right: 25px;
     }
     /*#endregion*/
 }

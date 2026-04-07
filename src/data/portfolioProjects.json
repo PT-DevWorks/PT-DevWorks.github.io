@@ -1,32 +1,12 @@
 [
     {
-        "projectTitle": "Test 1",
-        "projectTags": ["Personal", "Game"],
+        "Example-projectTitle": "Test 1",
+        "Example-projectTags": ["Personal", "Game"],
 
-        "developmentRole": "Level Designer",
-        "developmentTechnologies": ["C#"],
+        "Example-developmentRole": "Level Designer",
+        "Example-developmentTechnologies": ["C#"],
 
-        "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
-        "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
-    },
-    {
-        "projectTitle": "Test 2",
-        "projectTags": ["Personal", "Game"],
-
-        "developmentRole": "Level Designer",
-        "developmentTechnologies": ["C++", "HTML", "Unity", "Unreal"],
-
-        "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
-        "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
-    },
-    {
-        "projectTitle": "Test 3",
-        "projectTags": ["Professional", "Game"],
-
-        "developmentRole": "Level Designer",
-        "developmentTechnologies": ["C#", "Java", "Python"],
-
-        "previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
-        "previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
+        "Example-previewImage": "src/assets/portfolio/Aunt Cass 10.webp",
+        "Example-previewVideo": "src/assets/portfolio/MirroredOrbit-Prototype.mp4"
     }
 ]
