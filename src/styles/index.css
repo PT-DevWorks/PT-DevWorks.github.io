@@ -218,5 +218,12 @@
    Mobile Responsive Portfolio Style
    ================================= */
 @media screen and (max-width: 1024px) {
-    
+    .aboutMeContentContainer {
+        gap: 20px;
+        padding: 0 5%;
+        text-align: center;
+        align-items: center;
+        text-align: justify;
+        flex-direction: column;
+    }
 }

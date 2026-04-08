@@ -1,17 +1,7 @@
 /* ================
    Detect Page Type
    ================ */
-const pageType = document.body.className;
-const navActions = document.getElementById("navigationActions");
-switch (true) {
-    case pageType.classList.contains("index"):
-    
-        break;
 
-    case pageType.classList.contains("caseStudy"):
-        
-        break;
-}
 
 
 
@@ -95,7 +85,7 @@ animateTyper();
 
 //#region Navigation Bar Hamburger
 function ToggleMenu() {
-    const navItems = document.querySelector(".navItems");
+    const navItems = document.querySelector(".navigationItems");
     const hamburger = document.querySelector(".hamburger");
 
     const isOpen = navItems.classList.contains("show");
