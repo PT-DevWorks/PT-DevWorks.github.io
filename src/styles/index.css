@@ -217,7 +217,7 @@
 /* =================================
    Mobile Responsive Portfolio Style
    ================================= */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 2340px) {
     .aboutMeContentContainer {
         gap: 20px;
         padding: 0 5%;
